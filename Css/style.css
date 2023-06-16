@@ -131,9 +131,9 @@ header.sticky{
 
 
 .about-img img{
-	height: 24rem;
+	height: 15%;
 	width: 90%;
-	max-width: 450px;
+	max-width: 480px;
 	animation: bounce 1.5s infinite;
 	transition: 4s;
 	/* filter: 100%; */
