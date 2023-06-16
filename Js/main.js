@@ -27,3 +27,19 @@ const sr = ScrollReveal ({
 sr.reveal('.home-text',{delay:190, origin:'bottom'})
 
 sr.reveal('.about,.services,.portfolio,.contact',{delay:200, origin:'bottom'})
+
+	const contactForm = document.getElementById('contactForm');
+		const submitBtn = document.getElementById('submitBtn');
+
+		contactForm.addEventListener('submit', (e) => {
+			e.preventDefault();
+			submitBtn.disabled = true;
+			submitBtn.textContent = 'Sending...';
+
+			// Simulating form submission delay
+			setTimeout(() => {
+				contactForm.reset();
+				submitBtn.textContent = 'Message Sent';
+				submitBtn.disabled = false;
+			}, 2000);
+		});
