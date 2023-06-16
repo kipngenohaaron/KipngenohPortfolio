@@ -4,7 +4,8 @@
 
 ## Project Description
 
-#### This is my personal website, a professional website that provides information about what I do, what services I do offer, and how to contact me.
+#### "Welcome to my personal portfolio website! I'm Kipngenoh Aaron Rotich, a passionate web developer with a keen eye for design. This website is my digital playground where I showcase my skills, projects, and creative endeavors"...Thank you for visiting my portfolio website, and I hope my work resonates with you. Let's create something amazing together!..
+
 
 ## Setting up project
 
